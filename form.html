@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form">
+    <form action="index.html" autocomplete="off">
+        <label for="name">First name</label>
+        <input type="text" name="first name" id="name" aria-autocomplete="list" required>
+        <label for="surname">last name</label>
+        <input type="text" name="last name" id="surname" aria-autocomplete="list" required>
+        <label for="age">age</label>
+        <input type="number" name="age" id="age" min="18" max="100" aria-autocomplete="list" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" aria-autocomplete="list" required>
+        <div class="btns">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+
+    </section>
+    
+</body>
+</html>

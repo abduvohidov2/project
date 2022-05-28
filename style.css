@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #fcf1f4;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav ul li {
+    display: inline-block;
+}
+nav .nav .nav-items{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    margin: 0 5px;
+    padding: 8px 20px;
+    border-radius: 0px;
+    border-bottom: transparent 2px solid;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    border-bottom: black 2px solid;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.nav .nav-items a{
+    margin: 0 20px;
+}
+body .btn{
+    text-decoration: none;
+    background-color: red;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    border: 1px red solid;
+    transition: 0.3s;
+}
+body .btn:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s;
+}
+
+
+
+.main{
+    width: 80%;
+    display: flex;
+    margin: 50px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.main img{
+    width: 300px;
+}
+.main .info h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+    color: rgb(49, 49, 49); 
+}
+.main .info h1{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+}
+.main .info h1 span{
+    color: #FF0000;
+}
+.main .info p {
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 30px;
+    color: rgb(48, 43, 43);
+}
+
+.card-sec{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.card-sec img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.card-sec .cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-sec .cards .card{
+    padding: 20px 15px;
+    border: 2px rgb(238,238,238) solid;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card-sec h1{
+    margin-bottom: 10px;     
+}
+.card-sec .card:hover{
+    border: 2px black solid;
+    transition: 0.5s;
+}
+
+
+.oatmea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #F8EDF0;
+}
+.oatmea img{
+    width: 400px;
+}
+.oatmea h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.oatmea p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    color: rgb(49, 49, 49);
+}
+
+
+.ice-creams{
+    width: 100%;
+    background-color: white;
+}
+.ice-creams .title{
+    font-size: 55px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 55px 0;
+    text-align: center;
+}
+.ice-creams ul{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto 50px;
+}
+.ice-creams ul li{
+    display: inline-block;
+}
+.ice-creams ul li a{
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    color: grey;
+    border-bottom: 1px transparent solid;
+    transition: 0.5s;
+}
+.ice-creams ul li a:hover{
+    border-bottom: 1px black solid;
+    color: black;
+    transition: 0.5s;
+}
+.ice-creams .ice-cream{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 50px;
+    
+}
+.ice-creams .ice-cream img{
+    width: 400px;
+}
+.ice-creams .ice-cream .info h1{
+    font-size: 45px;
+    font-family:'Roboto', sans-serif ;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.ice-creams .ice-cream .info p{
+    font-size: 18px;
+    font-family:'Roboto', sans-serif ;
+    color: dimgray;
+    line-height: 25px;
+    text-indent: 10px;
+    margin-bottom: 25px;
+}
+.ice-creams .ice-cream .info h2{
+    margin-bottom: 17px;
+
+}
+.ice-creams .ice-cream .info h2 del{
+    opacity: 0.8;
+}
+.adele{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 100px;
+}
+.adele .girl{
+    display: flex;
+    align-items: center ;
+    margin-bottom: 20px;
+}
+.adele .girl img{
+    margin-right: 20px;
+}
+.adele .girl .titl h1{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.adele .girl .titl h2{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Poppins' ,sans-serif ;
+    color: grey;
+    letter-spacing: 1px;
+}
+.adele .info p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.adele .info .slider{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.adele .info .slider .red{
+    border-radius: 50%;
+    border:2px red solid
+}
+.order{
+    display: flex;
+    width: 100%;
+    background-color:#fcf1f4 ;
+    justify-content: center;
+    align-items: center;
+}
+.order .main-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.order .main-div .iphone{
+    border-radius: 30px;
+    margin-bottom: -80px;
+    margin-top: 80px;
+    
+
+}
+.order .main-div .info h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+
+}
+.order .main-div .info .text{
+    font-size: 18;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(49,49,49);
+    margin-bottom: 30px;
+    word-spacing: 2px;
+}
+.order .main-div .info .tesla{
+    display: flex;
+align-items: center;
+column-gap: 10px;
+margin-bottom: 10px;
+
+
+}
+.order .main-div .info .tesla p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+.order .main-div .info .tesla .icon{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+}
+.order .box{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    margin-top: 30px;
+}
+.quiz{
+    width: 100%;
+    padding: 200px 0 ;
+    display: flex;
+    justify-content: center;
+}
+.quiz h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center ;
+    margin-bottom: 50px;
+}
+.quiz .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quiz .email input[type="email"]{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 30px;
+    border:2px dimgrey solid;
+    padding-left: 30px;
+    font-size: 16px;
+    color: red;
+    text-transform: lowercase;
+    }
+    
+.quiz .email input[type="email"]::placeholder{
+    text-transform: capitalize;
+
+}
+.quiz .email input[type="email"]:focus{
+    outline-style: none;
+    box-shadow: 0px 0px 5px dimgray inset;
+}
+
+
+.quiz .email a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    background-color: #FF0000;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.quiz .email a:hover{
+    box-shadow: -5px -5px 5px rgba(255,0,0,0.5),
+    5px 5px 5px rgba(102,255,0,0.5),
+    5px -5px 5px rgba(0,68,255,0.5),
+    -5px 5px 5px rgba(255,230,0.05)
+    ;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+    }
+    footer{
+        width: 100%;
+        padding: 100px 10%;
+        background-color: rgb(47,47,47);
+
+    }
+    footer .footer-main{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+    footer .socail p{
+        font-family: 'Roboto',sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer .socail h6{
+        font-size: 16px;
+        font-family: 'Roboto',sans-serif;
+        color: white;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    footer .socail .socail-media{
+        display: flex;
+        column-gap: 15px;
+
+    }
+    footer .links h1{
+        font-size: 18px;
+        font-family: 'Roboto',sans-serif;
+        color: white;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    footer .links p{
+        font-size: 16px;
+        font-family: 'Roboto',sans-serif;
+        color: white;
+        margin-bottom: 10px;
+        font-weight: 300;
+
+    }
+    footer .payment h1{
+        font-size: 20px;
+        font-family: 'Roboto',sans-serif;
+        color: white;
+        margin-bottom:30px;
+        font-weight: bold;
+    }
+    footer .payment input[type="email"]{
+        width: 300px;
+        height: 35px;
+        font-size: 16px;
+         color:dimgrey;
+         text-transform: lowercase;
+         color: red;
+    }
+    footer .payment input[type="submit"]{
+        outline: none;
+        background-color: red;
+        box-shadow: 0px 0px 5px  whitesmoke inset; 
+        width:80px;
+        height: 35px;
+        margin-right: 70px;
+        font-family: 'Roboto',sans-serif;
+
+      }
+      footer .payment input[type="submit"]:hover{
+        box-shadow: -5px -5px 5px rgba(0, 255, 149, 0.5),
+        5px 5px 5px rgba(89, 0, 255, 0.5),
+        5px -5px 5px rgba(214, 16, 16, 0.5),
+        -5px 5px 5px rgba(255,230,0.05)
+        ;
+        transition: 0.5s;   
+        background-color: white;
+        color: white;
+
+      }
+      /* Form */
+      .form{
+          background-color: #fcf1f4;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .form form{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 20px 20px;
+          background-color: rgba(0,0,0,0.5);
+          border-radius: 10px;
+
+      }
+      .form form label{
+          font-size: 20px;
+          font-family:'Roboto',sans-serif;
+          font-weight: lighter;
+          color: white;
+          margin: 30px 5px 5px;
+
+
+      }
+      .form form input[type="text"],
+      .form form input[type="number"],
+      .form form input[type="email"]{
+          width: 280px;
+          height: 35px;     
+          border-radius: 0px;
+          padding-left: 10px;
+          font-size: 18px;
+          border:0px white solid;
+          border-bottom: 2px white solid;
+          background-color: transparent;
+          color: white;
+          letter-spacing: 1px;
+
+      }
+      .form form input[type="text"]:focus,
+      .form form input[type="number"]:focus,
+      .form form input[type="email"]:focus{
+
+        
+
+
+
+
+      }
+
+      
+      .form form input[type="submit"],
+      .form form input[type="reset"]{
+          margin: 10px auto;
+          border: 1px red solid;
+          background-color: transparent;
+          color: red;
+          border-radius: 3px;
+          font-size: 18px;
+          font-family: 'Roboto'sans-serif;
+          text-transform: uppercase;
+          padding: 5px 30px;
+          transition: 0.5s;
+          cursor: pointer;
+
+      }
+      .form form input[type="submit"]:hover,
+      .form form input[type="reset"]:hover{
+          background-color: red;
+          color: white;
+          transition: 0.5s;
+
+      }
+      .btns{
+          margin: 20px auto 30px;
+
+      }
+    
+
+    
